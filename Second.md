@@ -47,7 +47,7 @@ BEqualScreen.grid(row=3,column=3)
 root.mainloop()
 ```
 
-## 第7章 用户输入和while循(2)
+## 第7章 用户输入和while循
 
 ### 7.1 函数input()的工作原理
 
@@ -69,7 +69,7 @@ print(f"\nHello, {name}!")
 
 
 
-### 7.1.2 使用int()来获取数值输入(3)
+### 7.1.2 使用int()来获取数值输入
 
 ```Python
 height = input("How tall are you, in inches? ")
@@ -81,4 +81,21 @@ else:
   print("\nYou'll be able to ride when you're a little older.")
 
 ```
+
+### 值的类型
+
+在编程语言中，总是包含最基本的三种数据类型：
+
+- 布尔值（Boolean Value)
+- 数字（Numbers）：整数（Int）、浮点数（Float）、复数（Complex Numbers）
+- 字符串（Strings）
+
+既然有不同类型的数据，它们就分别对应着不同类型的值。
+
+运算的一个默认法则就是，通常情况下应该是_相同类型的值才能相互运算_。
+
+显然，数字与数字之间的运算是合理的，但你让 `+` 这个操作符对一个字符串和一个数字进行运算就不行……
+
+[（上面这些是来自李笑来）](https://github.com/xiaolai/xiaolai.github.io/blob/master/the-craft-of-selfteaching/README.md)
+
 
